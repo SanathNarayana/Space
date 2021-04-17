@@ -506,7 +506,7 @@ function destroyUFO() {
 	}
 }
 	function spawnpowerup(){
-  if(World.frameCount%20===0){
+  if(World.frameCount%400===0){
      var powerup= createSprite(400, Math.round(random(170, 230)), 10, 10);
      powerup.addImage(powerupimg);
      powerup.velocityX = -3;
